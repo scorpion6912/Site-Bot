@@ -1,0 +1,42 @@
+
+*{
+    list-style: none;
+}
+a {
+    color: red;
+    text-decoration: none;
+}
+/* nav */
+header{
+    box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.7) ;
+    background-image: url(../Assets/Fondnav.jpg);
+    background-size: 100%;
+}
+
+header nav{
+    display: flex;
+    justify-content: space-between;
+}
+
+header nav ul {
+    display: flex;
+    align-items: center;
+    margin-right: 2vw;
+}
+
+
+header nav img{
+    width: 8vw;
+    margin-left: 2vw;
+}
+
+header nav ul li {
+    transition: 0.3s ease-in-out;
+    margin: 0 2vw;
+}
+
+header nav ul li :hover {
+    transition: 0.5s ease-in-out;
+    background-color: darkred;
+    border: solid 2px lightgrey;
+}
