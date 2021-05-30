@@ -2,3 +2,45 @@
     list-style: none;
     border: solid red 1px;
 }*/
+
+body {
+    background-image: url(../assets/fondNuit.jpg);
+    background-repeat: no-repeat;
+    background-size: 190%;
+}
+
+main .lore h2 {
+    color: whitesmoke;
+    text-align: center;
+    text-decoration: underline;
+}
+
+main .lore p {
+    font-size: 20px;
+    color: blanchedalmond;
+    text-align: center;
+    margin-right: 4vw;
+    margin-left: 4vw;
+}
+
+main .lore {
+    display: flex;
+    box-shadow: 0 0 30px 5px rgba(0, 0, 0, 5);
+}
+
+main .nous ul li {
+    display: flex;
+    margin: 2vw;
+    align-items: center;
+}
+
+main .nous ul li p{
+    font-size: 20px;
+    color: whitesmoke;
+    margin-right: 4vw;
+    margin-left: 4vw;
+}
+
+main .nous ul li img {
+    width: 10vw;
+}
