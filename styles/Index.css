@@ -4,9 +4,10 @@
 }*/
 
 body {
-    background-image: url(../assets/fondNuit.jpg);
+    /*background-image: url(../assets/fond_2.jpg);*/
+    background-color: #1E0F1C;
     background-repeat: no-repeat;
-    background-size: 190%;
+    background-size: 100%;
 }
 
 main .lore h2 {

@@ -3,7 +3,7 @@
     list-style: none;
 }
 a {
-    color: red;
+    color: whitesmoke;
     text-decoration: none;
 }
 /* nav */
@@ -38,5 +38,7 @@ header nav ul li {
 header nav ul li :hover {
     transition: 0.5s ease-in-out;
     background-color: darkred;
-    border: solid 2px lightgrey;
+    border-radius: 30%;
+    padding: 0.2vw;
+    /*border: solid 2px whitesmoke;*/
 }
