@@ -10,13 +10,24 @@
 </head>
 <body>
     <header>
+        <script src="./js/index.js"></script>
+        <a href="javascript:void(0)" id="croix" class="closebtn" onclick="closeNav()">&times;</a>
         <nav>
-            <img src="./assets/logo_white_large.png" alt="Logo">
             <ul>
-                <li><a href="./index.html">Accueil</a></li>
-                <li><a href="./pages/commande.html">Commande</a></li>
-                <li><a href="./pages/telechargement.html">Telechargement</a></li>
+                <li>
+                    <img src="./assets/logo_white_large.png" alt="Logo">
+                </li>
+                <li>
+                    <span style="font-size:40px;cursor:pointer" class="cursor" onclick="openNav()">&#9776;</span>
+                </li>
             </ul>
+            <div class="nav" id="myNav">
+                <ul>
+                    <li><a href="./index.html">Accueil</a></li>
+                    <li><a href="./pages/commande.html">Commande</a></li>
+                    <li><a href="./pages/telechargement.html">Telechargement</a></li>
+                </ul>
+            </div>
         </nav>
     </header>
 

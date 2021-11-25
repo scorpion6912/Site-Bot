@@ -6,14 +6,8 @@ a {
     color: whitesmoke;
     text-decoration: none;
 }
-/* nav */
-header{
-    box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.7) ;
-    background-image: url(../Assets/Fondnav.jpg);
-    background-size: 100%;
-}
-
-header nav{
+/* ======================================Old code maybe usefull later ==============================================================*/
+/*header nav{
     display: flex;
     justify-content: space-between;
 }
@@ -40,5 +34,86 @@ header nav ul li :hover {
     background-color: darkred;
     border-radius: 30%;
     padding: 0.2vw;
+    border: solid 2px whitesmoke;
+}
+*/
+/* ================================================================================================================================*/
+/* ===================================================header / nav=================================================================*/
+header{
+    box-shadow: 0 0 30px 5px rgba(0, 0, 0, 0.7) ;
+    background-image: url(../Assets/Fondnav.jpg);
+    background-size: 100%;
+    overflow-y: auto;
+}
+/*header nav{
+    border: solid violet 2px;
+}*/
+header nav ul {
+    display: flex;
+    align-items: center;
+    margin-right: 2vw;
+    justify-content: space-between;
+}
+header nav img{
+    width: 8vw;
+    margin-left: 2vw;
+}
+header .nav{
+    justify-content: space-between;
+    /*border: solid 2px violet;*/
+    align-items: center;
+}
+
+header .nav ul {
+    display: flex;
+    align-items: center;
+    margin-right: 2vw;
+    justify-content: space-around;
+}
+
+header .nav ul li {
+    transition: 0.3s ease-in-out;
+    margin: 0 2vw;
+    font-size: 4vh;
+}
+
+header .nav ul li :hover {
+    transition: 0.5s ease-in-out;
+    background-color: darkred;
+    border-radius: 30%;
+    padding: 0.2vw;
     /*border: solid 2px whitesmoke;*/
 }
+header .nav{
+    display: none;
+}
+span{
+    color: red;
+}
+
+header .closebtn {
+    right: 20px;
+    position: absolute;
+    font-size: 60px;
+    display: none;
+  }
+
+  .cursor{
+      transition: 0.5s;
+  }
+
+  .cursor:hover{
+    transform: scale(1.2);
+  }
+
+  @media screen and (max-height: 450px) {
+    header {
+        overflow-y: auto;}
+    header a {
+        font-size: 20px}
+    header .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+    }
+  }
