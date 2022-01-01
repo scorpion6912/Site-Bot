@@ -92,9 +92,9 @@ span{
 }
 
 header .closebtn {
-    right: 20px;
+    right: 2.75vw;
     position: absolute;
-    font-size: 60px;
+    font-size: 50px;
     display: none;
   }
 

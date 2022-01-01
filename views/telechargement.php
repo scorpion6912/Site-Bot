@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Commandes</title>
-    <link rel="stylesheet" href="../styles/commande.css">
-    <link rel="stylesheet" href="../styles/Header.css">
+    <title>Lore du jeux</title>
+    <link rel="stylesheet" href="../styles/telechargement.css">
+    <link rel="stylesheet" href="../styles/header.css">
 </head>
 <body>
     <header>
-        <script src="../js/index.js"></script>
+        <script src="../js/header.js"></script>
         <a href="javascript:void(0)" id="croix" class="closebtn" onclick="closeNav()">&times;</a>
         <nav>
             <ul>
@@ -23,9 +23,9 @@
             </ul>
             <div class="nav" id="myNav">
                 <ul>
-                    <li><a href="../index.html">Accueil</a></li>
-                    <li><a href="./commande.html">Commande</a></li>
-                    <li><a href="./telechargement.html">Telechargement</a></li>
+                    <li><a href="home.php">Accueil</a></li>
+                    <li><a href="commande.php">Commande</a></li>
+                    <li><a href="telechargement.php">Telechargement</a></li>
                 </ul>
             </div>
         </nav>
