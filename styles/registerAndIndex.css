@@ -3,7 +3,7 @@ body{
     justify-content: center;
     align-items: center;
     margin: auto;
-    background-image: url("../img/fond.jpg");
+    background-image: url("../assets/fondnav.jpg");
 }
 .survey{
     background-color: black;

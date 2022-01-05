@@ -23,10 +23,10 @@
                 <label for="user">User</label>
             </div>
 
-            <div>
+            <!-- <div>
                 <input type="radio" id="admin" name="rank" value="2">
                 <label for="admin">Admin</label>
-            </div>
+            </div> -->
         </div>
         <br>
         <div class="button_container">

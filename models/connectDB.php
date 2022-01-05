@@ -1,8 +1,8 @@
 <?php
 function connectDB() {
-    $host = '';
-    $user = '';
-    $db = '';
+    $host = 'localhost';
+    $user = 'root';
+    $db = 'ptut';
     $pwd = ''; // here you must place the connect information of your DB
     try {
         $bdd = new PDO('mysql:host='.$host.';dbname='.$db.';charset=utf8', $user,$pwd);

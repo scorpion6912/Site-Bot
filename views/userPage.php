@@ -10,8 +10,8 @@
     <link rel="stylesheet" href="../styles/footer.css">
 </head>
 <body>
-<?
-include './header.php';
+<?php
+require './header.php';
 ?>
 
 <main>
@@ -37,7 +37,7 @@ include './header.php';
     <div class="nous">
         <ul>
             <li class="Lena">
-                <img src="./assets/lena_simple.jpg" alt="Lenaaaaaaa">
+                <img src="../assets/lena_simple.jpg" alt="Lenaaaaaaa">
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati illo aut consequatur
                     veritatis commodi consequuntur,
@@ -46,7 +46,7 @@ include './header.php';
                 </p>
             </li>
             <li class="Léo">
-                <img src="./assets/leo_simple.jpg" alt="Léooo">
+                <img src="../assets/leo_simple.jpg" alt="Léooo">
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati illo aut consequatur
                     veritatis commodi consequuntur,
@@ -55,7 +55,7 @@ include './header.php';
                 </p>
             </li>
             <li class="Rémy">
-                <img src="./assets/remy_simple.jpg" alt="Rémyyy">
+                <img src="../assets/remy_simple.jpg" alt="Rémyyy">
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati illo aut consequatur
                     veritatis commodi consequuntur,
@@ -64,7 +64,7 @@ include './header.php';
                 </p>
             </li>
             <li class="Juan">
-                <img src="./assets/juan_simple.jpg" alt="Le plus beau btw">
+                <img src="../assets/juan_simple.jpg" alt="Le plus beau btw">
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati illo aut consequatur
                     veritatis commodi consequuntur,
@@ -73,7 +73,7 @@ include './header.php';
                 </p>
             </li>
             <li class="Claire">
-                <img src="./assets/claire_simple.JPG" alt="Claireeeeee">
+                <img src="../assets/claire_simple.JPG" alt="Claireeeeee">
                 <p>
                     Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati illo aut consequatur
                     veritatis commodi consequuntur,
@@ -84,8 +84,8 @@ include './header.php';
         </ul>
     </div>
 </main>
-<?
-include './footer.php';
+<?php
+require './footer.php';
 ?>
 
 </body>
