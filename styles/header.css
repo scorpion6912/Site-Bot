@@ -2,7 +2,7 @@
 *{
     list-style: none;
 }
-a {
+header a {
     color: whitesmoke;
     text-decoration: none;
 }
@@ -59,12 +59,11 @@ header nav img{
     margin-left: 2vw;
 }
 header nav ul .li {
-    transition: 0.3s ease-in-out;
     margin: 0 2vw;
     font-size: 4vh;
 }
 
-header nav ul .li :hover { 
+header nav ul .li :hover {
     transition: 0.5s ease-in-out;
     background-color: darkred;
     border-radius: 30%;

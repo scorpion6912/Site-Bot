@@ -1,12 +1,9 @@
-/** {
-    list-style: none;
-    border: solid red 1px;
-}*/
-
 body {
-    /*background-image: url(../assets/fond_2.jpg);*/
+    background-image: url("../assets/fond.jpg");
+    /*
     background-color: #1E0F1C;
     background-repeat: no-repeat;
+    */
     background-size: 100%;
 }
 
@@ -26,7 +23,7 @@ main .lore p {
 
 main .lore {
     display: flex;
-    box-shadow: 0 0 30px 5px rgba(0, 0, 0, 5);
+    box-shadow: 0 0 50px 50px rgba(0, 0, 0, 5);
 }
 
 main .nous ul li {

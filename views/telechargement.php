@@ -9,6 +9,7 @@
     <link rel="stylesheet" href="../styles/header.css">
 </head>
 <body>
+    <!--
     <header>
         <script src="../js/header.js"></script>
         <a href="javascript:void(0)" id="croix" class="closebtn" onclick="closeNav()">&times;</a>
@@ -30,6 +31,24 @@
             </div>
         </nav>
     </header>
-    
+    -->
+    <?php
+    include 'header.php';
+    ?>
+    <main>
+        <div class="link">
+            <ul>
+                <li>
+                    <p> Here is the link to invite our bot in your discord, enjoy :</p>
+                </li>
+                <li class="bot">
+                     <a href=""> I'm the link</a>
+                </li>
+            </ul>
+        </div>
+    </main>
+    <?php
+    include 'footer.php';
+    ?>
 </body>
 </html>

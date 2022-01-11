@@ -5,10 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Commandes</title>
-    <link rel="stylesheet" href="../styles/commande.css">
+    <link rel="stylesheet" href="../styles/pageCommande.css">
     <link rel="stylesheet" href="../styles/header.css">
 </head>
 <body>
+<!--
     <header>
         <script src="../js/header.js"></script>
         <a href="javascript:void(0)" id="croix" class="closebtn" onclick="closeNav()">&times;</a>
@@ -30,6 +31,17 @@
             </div>
         </nav>
     </header>
+    -->
+
+    <?php
+    include 'header.php';
+    ?>
+    <main>
+
+    </main>
+    <?php
+    include 'footer.php';
+    ?>
     
 </body>
 </html>
