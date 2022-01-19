@@ -1,7 +1,11 @@
 body {
     background-repeat: no-repeat;
     background-size: 100%;
-    background-image: url("../assets/fond.jpg");
+    background-image: url("../assets/Fnoire.jpg");
+}
+main .link{
+    box-shadow: red 0 0 30px 10px;
+    border-radius: 70%;
 }
 main .link ul li p{
     color: whitesmoke;

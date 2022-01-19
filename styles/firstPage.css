@@ -1,5 +1,5 @@
 body {
-    background-image: url("../assets/fond.jpg");
+    background-image: url("../assets/Fnoire.jpg");
     /*
     background-color: #1E0F1C;
     background-repeat: no-repeat;
@@ -23,13 +23,16 @@ main .lore p {
 
 main .lore {
     display: flex;
-    box-shadow: 0 0 50px 50px rgba(0, 0, 0, 5);
+    box-shadow: 0 0 30px 5px red;
+    border-radius: 50%;
 }
 
 main .nous ul li {
     display: flex;
     margin: 2vw;
     align-items: center;
+    background-image: url("../assets/fond.jpg");
+    border-radius: 50%;
 }
 
 main .nous ul li p{

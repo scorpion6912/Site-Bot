@@ -37,7 +37,34 @@
     include 'header.php';
     ?>
     <main>
-
+        <div class="box">
+            <ul class="l1">
+                <li>
+                    <h1>!setup</h1>
+                    <p>Cette commande permet de faire démarrer la partie <br>
+                        en créant les salons nécéssaires</p>
+                </li>
+                <li>
+                    <h1>!desetup</h1>
+                    <p>Cette commande permet de clore une partie terminée <br>
+                        en supprimant les salons nécéssaires</p>
+                </li>
+            </ul>
+            <ul class="l2">
+                <li>
+                    <h1>!aled</h1>
+                    <p>Cette commande permet d'afficher <br>
+                        toute les commandes disponibles en envoyant <br>
+                        les informations en MP</p>
+                </li>
+                <li>
+                    <h1>!roles</h1>
+                    <p>Cette commande permet d'avoir des informations <br>
+                        sur les rôles, cela permet de bien comprendre <br>
+                        chacun d'entre eux</p>
+                </li>
+            </ul>
+        </div>
     </main>
     <?php
     include 'footer.php';

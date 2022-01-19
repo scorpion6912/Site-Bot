@@ -16,18 +16,19 @@
             <br>
             <label>Mot de passe :</label><input type="password" name="pwd" />
             <br>
-        <p> Qui etes vous? </p>
+       <!-- <p> Qui etes vous? </p>
         <div class="radio_choice">
             <div>
                 <input type="radio" id="user" name="rank" value="1"checked>
                 <label for="user">User</label>
             </div>
 
-            <!-- <div>
-                <input type="radio" id="admin" name="rank" value="2">
-                <label for="admin">Admin</label>
-            </div> -->
-        </div>
+
+            <div>
+                <input type="radio" id="admin" name="rank" value="1">
+                <label for="admin">Visiteur</label>
+            </div>
+        </div> -->
         <br>
         <div class="button_container">
             <button type="submit" value="OK" >M'inscrire</button>
