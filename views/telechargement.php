@@ -42,7 +42,8 @@
                     <p> Here is the link to invite our bot in your discord, enjoy :</p>
                 </li>
                 <li class="bot">
-                     <a href=""> I'm the link</a>
+                     <a href="https://discord.com/oauth2/authorize?client_id=834401250865840148&permissions=8&scope=bot">
+                         I'm the link</a>
                 </li>
             </ul>
         </div>
