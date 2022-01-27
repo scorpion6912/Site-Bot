@@ -39,46 +39,34 @@ require './header.php';
             <li class="Lena">
                 <img src="../assets/lena_simple.jpg" alt="Lenaaaaaaa">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati illo aut consequatur
-                    veritatis commodi consequuntur,
-                    qui, ipsam natus optio adipisci officiis hic distinctio exercitationem, maiores
-                    laudantium. Sed dolore exercitationem commodi.
+                    Léna : Elle s'occupe de la gestion des réactions, la communication externe, la gestion du projet.
                 </p>
             </li>
             <li class="Léo">
                 <img src="../assets/leo_simple.jpg" alt="Léooo">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati illo aut consequatur
-                    veritatis commodi consequuntur,
-                    qui, ipsam natus optio adipisci officiis hic distinctio exercitationem, maiores
-                    laudantium. Sed dolore exercitationem commodi.
+                    Léo : notre développeur adoré  (ou pas) sur le développement principal du bot,
+                    le fonctionnement logique du jeu
                 </p>
             </li>
             <li class="Rémy">
                 <img src="../assets/remy_simple.jpg" alt="Rémyyy">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati illo aut consequatur
-                    veritatis commodi consequuntur,
-                    qui, ipsam natus optio adipisci officiis hic distinctio exercitationem, maiores
-                    laudantium. Sed dolore exercitationem commodi.
+                    Rémy : créateur du site (objectivement mauvais), créateur du temps (du timer du bot qui est
+                    franchement très propre et sans aucun bug). 
                 </p>
             </li>
             <li class="Juan">
                 <img src="../assets/juan_simple.jpg" alt="Le plus beau btw">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati illo aut consequatur
-                    veritatis commodi consequuntur,
-                    qui, ipsam natus optio adipisci officiis hic distinctio exercitationem, maiores
-                    laudantium. Sed dolore exercitationem commodi.
+                    Atlas : Il s'occupe de la gestion des rôles, communication interne, et de la vérification orthographique
                 </p>
             </li>
             <li class="Claire">
                 <img src="../assets/claire_simple.JPG" alt="Claireeeeee">
                 <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati illo aut consequatur
-                    veritatis commodi consequuntur,
-                    qui, ipsam natus optio adipisci officiis hic distinctio exercitationem, maiores
-                    laudantium. Sed dolore exercitationem commodi.
+                    Claire : Ingénieur musical, gestion des messages,
+                    communication entre le groupe de développeurs et le tuteur
                 </p>
             </li>
         </ul>
